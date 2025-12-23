@@ -1,4 +1,4 @@
-📌 Project Overview
+## 📌 Project Overview
 In high-frequency environments like Exness, trading volumes are naturally volatile. Traditional A/B testing often fails because "Market Noise" masks the actual impact of CRM interventions (e.g., deposit bonuses, reactivation journeys).
 
 This project is a modular Python-based experimentation suite designed to:
