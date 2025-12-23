@@ -15,12 +15,17 @@ Language: Python 3.10+
 
 ## 📖 User & Interpretation Guide
 Tab 1: Pre-Experiment Planning (Strategic Alignment)
+
 What it does: Calculates the required sample size based on your business goals.
+
 Why it matters for Exness: Prevents "underpowered" tests. If the CRM team has a budget for 50k users but the tool says you need 100k to see a 1% lift, you saved the company from a failed, inconclusive experiment.
+
 Key Metric: MDE (Minimum Detectable Effect). Setting this to 1-2% mimics the thin margins of fintech growth where small improvements lead to massive revenue.
 
 Tab 2: Live Analysis & CUPED (The "Signal Finder")
+
 The Problem: Traditional T-tests often show high P-values (e.g., 0.90) because one "Whale" trader can skew the entire dataset.
+
 The CUPED Solution: This module uses a trader's historical baseline to adjust their current performance. It effectively asks: "Is this trader doing better than THEIR OWN average?" rather than just comparing them to a generic group mean.
 
 Visual Interpretation:
