@@ -8,15 +8,12 @@ Plan: Conduct Power Analysis to ensure experiments are statistically sound befor
 Analyze: Implement CUPED (Controlled-experiment using Pre-Experiment Data) to "denoise" results, reducing variance and shortening the time-to-significance.🛠️ Tech Stack
 Language: Python 3.10+
 
-UI Framework: Streamlit (for interactive stakeholder reporting)
+# UI Framework: Streamlit (for interactive stakeholder reporting)
+# Stats Engine: scipy.stats, statsmodels (Power Analysis, Welch's T-Test)
+# Data Ops: pandas, numpy
+# Visualization: plotly (Dynamic variance comparison)
 
-Stats Engine: scipy.stats, statsmodels (Power Analysis, Welch's T-Test)
-
-Data Ops: pandas, numpy
-
-Visualization: plotly (Dynamic variance comparison)
-
-📖 User & Interpretation Guide
+## 📖 User & Interpretation Guide
 Tab 1: Pre-Experiment Planning (Strategic Alignment)
 What it does: Calculates the required sample size based on your business goals.
 
